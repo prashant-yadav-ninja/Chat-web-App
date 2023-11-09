@@ -15,7 +15,7 @@ const Register = () => {
   
 //   import Dimg from "../img/defaultimg.png";
   const defaultAvatarURL = "https://cdn-icons-png.flaticon.com/128/145/145843.png";
-  console.log(defaultAvatarURL)
+  // console.log(defaultAvatarURL)
 
   const handleSubmit = async (e) => {
     setLoading(true);

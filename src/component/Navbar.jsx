@@ -38,7 +38,7 @@ import { AuthContext } from './context/AuthContext'
 
 const Navbar = () => {
   const {currentUser} = useContext(AuthContext)
-  console.log(currentUser.photoURL,"please tell")
+  // console.log(currentUser.photoURL,"please tell")
 
   // // Define a variable to store the photo URL or use the default image
   // const photoURL = currentUser.photoURL || Dimg;
